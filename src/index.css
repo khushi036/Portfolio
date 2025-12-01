@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+:root {
+  --primary: #6366f1;
+  --primary-light: #818cf8;
+  --primary-dark: #4f46e5;
+  --accent: #f59e0b;
+
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+
+  --bg-light: #f9fafb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Dark Mode Overrides */
+.dark {
+  --text-dark: #f3f4f6;
+  --text-light: #d1d5db;
+  --bg-light: #0f172a;
+}
+
+.dark body {
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* Glass effect */
+.dark .glass {
+  background: rgba(15, 23, 42, 0.7);
+  border-color: rgba(255, 255, 255, 0.1);
+}
