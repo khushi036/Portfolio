@@ -111,13 +111,6 @@ export default function Experience() {
                   </div>
                 ))}
               </div>
-
-              <button className="mt-6 px-4 py-2 
-                text-indigo-600 dark:text-indigo-400 
-                font-medium hover:text-indigo-700 dark:hover:text-indigo-300 
-                transition-colors text-sm">
-                View Full Details →
-              </button>
             </div>
           ))}
         </div>
