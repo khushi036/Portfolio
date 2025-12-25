@@ -53,7 +53,7 @@ export default function Projects() {
         </div>
 
         {/* Project Cards */}
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -131,29 +131,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Bottom Banner */}
-        <div className="
-          bg-gradient-to-r from-indigo-500 to-amber-400 
-          rounded-xl p-8 text-white text-center animate-scaleIn
-        ">
-          <h3 className="text-2xl font-bold mb-3">Ready to see more?</h3>
-          <p className="text-lg mb-6 opacity-90">
-            I'm constantly working on new projects and improving my skills.
-            Add your latest work!
-          </p>
-          <button
-            className="
-              px-8 py-3 
-              bg-white dark:bg-gray-800 
-              text-indigo-600 dark:text-indigo-300 
-              rounded-lg font-semibold 
-              hover:bg-gray-100 dark:hover:bg-gray-700 
-              transition-all duration-300 hover:shadow-lg
-            "
-          >
-            + Add Project
-          </button>
-        </div>
       </div>
     </section>
   );
