@@ -5,7 +5,7 @@ export default function Experience() {
     {
       title: 'Web Developer',
       company: 'SkyBrisk',
-      period: 'July 2021 - Present',
+      period: 'July 2021 - December 2021',
       responsibilities: [
         'Developing new web projects every month',
         'Creating responsive and interactive websites using MERN stack, full-stack development',
@@ -106,25 +106,18 @@ export default function Experience() {
                     className="flex items-start gap-3 animate-fadeInUp"
                     style={{ animationDelay: `${respIndex * 50}ms` }}
                   >
-                    <CheckCircle size={20} className="text-green-500 flex-shrink-0 mt-1" />
-                    <p className="text-gray-600 dark:text-gray-300">{resp}</p>
+                    <CheckCircle
+                      size={20}
+                      className="text-green-500 flex-shrink-0 mt-1"
+                    />
+                    <p className="text-gray-600 dark:text-gray-300">
+                      {resp}
+                    </p>
                   </div>
                 ))}
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Add Experience */}
-        <div className="mt-12 text-center animate-fadeInUp">
-          <p className="text-gray-600 dark:text-gray-300 mb-4">
-            Want to add more experience?
-          </p>
-
-          <button className="px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium 
-          hover:bg-indigo-700 transition-all duration-300 hover:shadow-lg">
-            + Add Experience
-          </button>
         </div>
 
       </div>
