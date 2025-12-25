@@ -18,7 +18,8 @@ export default function Education() {
       degree: 'B.Tech in Computer Science',
       institution: 'GL Bajaj Institute of Technology and Management',
       year: '2021 - 2025',
-      description: 'Pursuing B.Tech in Computer Science, focusing on web development and software engineering.',
+      description:
+        'Pursuing B.Tech in Computer Science, focusing on web development and software engineering.',
     },
   ];
 
@@ -32,8 +33,10 @@ export default function Education() {
 
         {/* Heading */}
         <div className="text-center mb-16 animate-fadeInUp">
-          <h2 className="text-4xl md:text-5xl font-bold 
-          text-gray-900 dark:text-white mb-4">
+          <h2
+            className="text-4xl md:text-5xl font-bold 
+            text-gray-900 dark:text-white mb-4"
+          >
             Education
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-amber-400 mx-auto"></div>
@@ -56,12 +59,15 @@ export default function Education() {
 
                 {/* Icon */}
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-lg
-                  bg-indigo-100 dark:bg-indigo-900 
-                  group-hover:bg-indigo-600 transition-colors">
+                  <div
+                    className="flex items-center justify-center h-12 w-12 rounded-lg
+                    bg-indigo-100 dark:bg-indigo-900 
+                    group-hover:bg-indigo-600 transition-colors"
+                  >
                     <BookOpen
                       size={24}
-                      className="text-indigo-600 dark:text-indigo-300 group-hover:text-white transition-colors"
+                      className="text-indigo-600 dark:text-indigo-300 
+                      group-hover:text-white transition-colors"
                     />
                   </div>
                 </div>
@@ -83,33 +89,11 @@ export default function Education() {
                   <p className="text-gray-500 dark:text-gray-300 text-sm">
                     {item.description}
                   </p>
-
-                  <div className="mt-4 flex gap-2">
-                    <button className="text-sm font-medium 
-                    text-indigo-600 dark:text-indigo-400 hover:text-indigo-700">
-                      Edit Details
-                    </button>
-                  </div>
-
                 </div>
+
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom Info Box */}
-        <div
-          className="mt-12 bg-gradient-to-r from-amber-50 to-indigo-50 
-          dark:from-gray-800 dark:to-gray-700 
-          rounded-xl p-8 border border-amber-200 dark:border-gray-600 animate-scaleIn"
-        >
-          <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
-            Add Your Education
-          </h3>
-
-          <p className="text-gray-600 dark:text-gray-300">
-            Easily update your education details by clicking "Edit Details" above.
-          </p>
         </div>
 
       </div>
